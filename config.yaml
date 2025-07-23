@@ -1,0 +1,28 @@
+# Interactive Brokers Configuration
+ib:
+  host: "127.0.0.1"
+  port: 7497  # 7497 for paper trading, 7496 for live
+  client_id: 1
+  timeout: 10
+
+# Telegram Bot Configuration
+telegram:
+  bot_token: "8168302383:AAGDAYmxLW8FbiVUoqaqdMqUoGHD7yrZ7AQ"
+  chat_id: "5992757162"
+
+# Trading Configuration
+trading:
+  symbols:
+    - "SPY"
+    - "QQQ"
+  
+  # Moving Average Strategy
+  strategy:
+    type: "moving_average"
+    period: 20
+    timeframe: "1min"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/trading_bot.log"
