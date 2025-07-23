@@ -7,8 +7,8 @@ ib:
 
 # Telegram Bot Configuration
 telegram:
-  bot_token: "8168302383:AAGDAYmxLW8FbiVUoqaqdMqUoGHD7yrZ7AQ"
-  chat_id: "5992757162"
+  bot_token: ""
+  chat_id: ""
 
 # Trading Configuration
 trading:
